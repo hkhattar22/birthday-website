@@ -15,7 +15,7 @@ type Polaroid = {
     revealType: 'childhood' | 'bowling' | 'friends';
 };
 
-const POLAROIDS = [
+const POLAROIDS: Polaroid[] = [
     {
         id: 0,
         emoji: "🧸",
@@ -23,7 +23,7 @@ const POLAROIDS = [
         caption: "Friends since our biggest concern was finishing homework before cartoons.",
         rotation: -5,
         bgColor: "linear-gradient(135deg,#6a4c93,#43316b)",
-        revealType: "childhood",
+        revealType: 'childhood',
     },
     {
         id: 1,
@@ -32,7 +32,7 @@ const POLAROIDS = [
         caption: "Bowling score has been sealed to protect my dignity.",
         rotation: 3,
         bgColor: "linear-gradient(135deg,#6b8ca6,#4a6378)",
-        revealType: "bowling",
+        revealType: 'bowling',
     },
     {
         id: 2,
@@ -41,7 +41,7 @@ const POLAROIDS = [
         caption: "Still somehow putting up with each other.",
         rotation: -2,
         bgColor: "linear-gradient(135deg,#e07856,#b5583c)",
-        revealType: "friends",
+        revealType: 'friends',
     },
 ];
 
